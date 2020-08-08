@@ -1,0 +1,18 @@
+{
+  "name": "apifilter",
+  "version": "1.0.0",
+  "description": "api filter array",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "author": "Grunt",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

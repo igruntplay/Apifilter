@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <title>Search people</title>
+</head>
+
+<body class="card-panel light-blue darken-4">
+  <form id="searchForm" class="" action="">
+    <fieldset class="deep-purple">
+      <legend class="">Search people</legend>
+
+      <label for="name">Filter by name</label>
+      <input type="text" name="name" id="name" placeholder="Adam Smith">
+
+      <label for="minage">Filter by minimum age</label>
+      <input type="number" name="minage" id="minage" min="0" placeholder="18">
+
+      <p>
+        <label>
+          <input type="checkbox" name="caseSensitive" id="caseSensitive" />
+          <span>Case Sensitive</span>
+        </label>
+      </p>
+
+      <p>
+        <label>
+          <input type="checkbox" name="partial" id="partial" />
+          <span>Include partial matches</span>
+        </label>
+      </p>
+
+      <input type="submit" value="Search" id="searchBtn">
+
+    </fieldset>
+  </form>
+
+  <fieldset>
+    <legend>Results</legend>
+    <p id="results"></p>
+  </fieldset>
+
+  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>
