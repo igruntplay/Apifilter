@@ -22,4 +22,8 @@ git clone https://github.com/igruntplay/Apifilter/
 npm install
 ```
 
+```
+npm start
+```
+
 done!
